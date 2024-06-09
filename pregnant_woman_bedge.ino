@@ -6,7 +6,7 @@
 // RFID 모듈 핀 설정
 #define SS_PIN 7
 #define RST_PIN 6
-#define BUZZER_PIN 5
+#define BUZZER_PIN 57
 
 // RGB LED 핀 설정
 int redPin = 2;
@@ -28,7 +28,7 @@ byte specificUid1[4] = {0x90, 0x3C, 0x94, 0x26}; // 기존 UID
 byte specificUid2[4] = {0x80, 0x80, 0xA9, 0x26}; // 새로운 UID
 
 // 진동모듈 정의
-int vibrationPin = 8;
+int vibrationPin = 9;
 
 // 카드 감지 횟수
 int specificCard1DetectionCount = 0;
